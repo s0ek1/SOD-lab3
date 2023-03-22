@@ -1,2 +1,6 @@
-package queue.array;public interface ArrayQueue {
+package priorityQueue.array;
+
+public interface ArrayQueue {
+    void add(int element);
+    int remove();
 }
